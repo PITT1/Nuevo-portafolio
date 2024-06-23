@@ -16,7 +16,7 @@ const Header = () => {
             </ul>
         </div>
 
-        <div className="burguer hidden">
+        <div className="burguer">
             <span className="burguer-inner"></span>
         </div>
 

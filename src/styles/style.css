@@ -56,6 +56,63 @@ div h1 {
     background-color: rgb(23, 23, 23);
 }
 
-.hidden {
+.burguer {
     display: none;
+}
+
+@media (max-width: 830px) {
+    .head {
+        justify-content: center;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .burguer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 60px;
+        right: 20px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid aqua;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+
+    .burguer:hover {
+        opacity: 0.5;
+    }
+
+    .burguer-inner {
+        position: relative;
+        height: 5px;
+        width: 60%;
+        background-color: aqua;
+    }
+
+    .burguer-inner::after {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .burguer-inner::before {
+        content: '';
+        position: absolute;
+        top: -12px;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        background-color: aqua;
+    }
 }
