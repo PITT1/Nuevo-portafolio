@@ -1,0 +1,16 @@
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list {
+    background-color: aqua;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-around;
+}
