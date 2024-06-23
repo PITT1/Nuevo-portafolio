@@ -1,16 +1,61 @@
 
 .head {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: black;
+    color:white;
+    padding: 10px;
 }
 
-.list {
-    background-color: aqua;
+div h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: default;
+    padding: 20px 40px;
+}
+
+.strong {
+    color: aqua;
+    text-shadow: 0 0 20px aqua,
+                 0 0 40px aqua,
+                 0 0 60px aqua;
+    transition: 0.3s all;
+}
+
+.strong:hover {
+    text-shadow: 0 0 10px aqua,
+                 0 0 20px aqua,
+                 0 0 30px aqua;
 }
 
 .list ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
     display: flex;
     justify-content: space-around;
+    list-style: none;
+    margin: 0 40px;
+    color: aqua;
+}
+
+.list ul li {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.3s all;
+    border-radius: 10px;
+}
+
+.list ul li:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: rgb(23, 23, 23);
+}
+
+.hidden {
+    display: none;
 }
