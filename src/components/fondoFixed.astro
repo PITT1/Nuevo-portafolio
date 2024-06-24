@@ -1,10 +1,57 @@
 ---
-
+import { Image } from 'astro:assets';
+import astroIcon from '../images/astro-icon.png';
+import htmlIcon from '../images/html-icon.png';
+import cssIcon from '../images/css-icon.png';
+import reactIcon from '../images/react-icon.png';
+import pythonIcon from '../images/python-icon.png';
+import javaScriptIcon from '../images/js-icon.png';
+import tailWindIcon from '../images/tailwind-icon.png';
 ---
 
 <section>
     <div class="container1">
         <span></span>
+    </div>
+
+    <div class="container2">
+        <span></span>
+    </div>
+
+    <div class="container3">
+        <span></span>
+    </div>
+
+    <div class="container4">
+        <span></span>
+    </div>
+
+    <div class="icon1">
+        <Image src={astroIcon} alt='icono de astro' width={150} height={150}/>
+    </div>
+
+    <div class="icon2">
+        <Image src={htmlIcon} alt='icono de html' width={150} height={150}/>
+    </div>
+
+    <div class="icon3">
+        <Image src={cssIcon} alt='icono de css' width={150} height={150}/>
+    </div>
+
+    <div class="icon4">
+        <Image src={reactIcon} alt='icono de react' width={150} height={150}/>
+    </div>
+
+    <div class="icon5">
+        <Image src={pythonIcon} alt='icono de python' width={150} height={150}/>
+    </div>
+
+    <div class="icon6">
+        <Image src={javaScriptIcon} alt='icono de javaScript' width={150} height={150}/>
+    </div>
+
+    <div class="icon7">
+        <Image src={tailWindIcon} alt='icono de tailwind' width={150} height={150}/>
     </div>
 
 </section>
@@ -41,6 +88,194 @@
         -webkit-box-shadow:0px 0px 150px 97px rgb(76, 21, 129);
         -moz-box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
         box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+    }
+
+    .container2 {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        height: 60px;
+        width: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 15s;
+        animation-direction: reverse;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .container2 span {
+        height: 0px;
+        width: 0px;
+        background-color: rgb(76, 21, 129);
+        -webkit-box-shadow:0px 0px 150px 97px rgb(76, 21, 129);
+        -moz-box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+        box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+    }
+
+    .container3 {
+        position: absolute;
+        top: 80%;
+        left: 70%;
+        height: 60px;
+        width: 800px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .container3 span {
+        height: 0px;
+        width: 0px;
+        background-color: rgb(76, 21, 129);
+        -webkit-box-shadow:0px 0px 150px 97px rgb(76, 21, 129);
+        -moz-box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+        box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+    }
+
+    .container4 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        height: 60px;
+        width: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .container4 span {
+        height: 0px;
+        width: 0px;
+        background-color: rgb(76, 21, 129);
+        -webkit-box-shadow:0px 0px 150px 97px rgb(76, 21, 129);
+        -moz-box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+        box-shadow: 0px 0px 150px 97px rgb(76, 21, 129);
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        height: 60px;
+        width: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        filter: blur(4px);
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        height: 60px;
+        width: 700px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        filter: blur(4px);
+    }
+
+    .icon3 {
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        height: 60px;
+        width: 300px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        filter: blur(4px);
+    }
+
+    .icon4 {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        height: 60px;
+        width: 700px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        filter: blur(4px);
+    }
+
+    .icon5 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        height: 60px;
+        width: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        filter: blur(4px);
+    }
+
+    .icon6 {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        height: 60px;
+        width: 300px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        filter: blur(4px);
+    }
+
+    .icon7 {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        height: 60px;
+        width: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        animation: rotate1;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        filter: blur(4px);
     }
 
     @keyframes rotate1 {
