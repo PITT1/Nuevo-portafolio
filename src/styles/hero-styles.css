@@ -10,6 +10,7 @@
 .presentation h1 {
     color: white;
     font-size: 5.0rem;
+    text-align: center;
 }
 
 .presentation p {
@@ -46,3 +47,22 @@
     border-radius: 50%;
 }
 
+@media (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .image-container div {
+        height: 400px;
+        width: 400px;
+    }
+
+    .presentation h1 {
+        font-size: 3rem;
+    }
+
+    .presentation p {
+        font-size: 1.5rem;
+    }
+}
