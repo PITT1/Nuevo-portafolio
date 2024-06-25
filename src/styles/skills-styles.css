@@ -120,11 +120,6 @@
     background-size: cover;
     height: 96px;
     width: 96px;
-    transition: 0.3s all;
-}
-
-.imagen-icon:hover {
-    transform: scale(1.4);
 }
 
 .astro-icon {

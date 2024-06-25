@@ -19,16 +19,16 @@ const Skills = () => {
                     <button className='btn1'>Download CV</button>
                 </motion.div>
                 <div className='carousel'>
-                    <span className='imagen-icon astro-icon'></span>
-                    <span className='imagen-icon js-icon'></span>
-                    <span className='imagen-icon css-icon'></span>
-                    <span className='imagen-icon html-icon'></span>
-                    <span className='imagen-icon react-icon'></span>
-                    <span className='imagen-icon tailwind-icon'></span>
-                    <span className='imagen-icon python-icon'></span>
-                    <span className='imagen-icon php-icon'></span>
-                    <span className='imagen-icon laravel-icon'></span>
-                    <span className='imagen-icon fastapi-icon'></span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} className='imagen-icon astro-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.1}} className='imagen-icon js-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.2}} className='imagen-icon css-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.3}} className='imagen-icon html-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.4}} className='imagen-icon react-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.5}} className='imagen-icon tailwind-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.6}} className='imagen-icon python-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.7}} className='imagen-icon php-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.8}} className='imagen-icon laravel-icon'></motion.span>
+                    <motion.span initial={{scale: 0}} whileInView={{scale: 1}} transition={{delay: 0.9}} className='imagen-icon fastapi-icon'></motion.span>
                 </div>
             </div>
         </section>
