@@ -26,6 +26,7 @@
     margin-left: 20px;
     border-radius: 5px;
     background-color: #100020;
+    min-width: 600px;
 }
 
 .head-window {
@@ -98,4 +99,12 @@
 
 .btn1:hover {
     border: 2px solid rgb(3, 255, 3);
+}
+
+.carousel {
+    z-index: 400;
+    width: 100%;
+    height: 400px;
+    background-color: #feab053e;
+    overflow: hidden;
 }
