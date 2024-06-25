@@ -1,14 +1,6 @@
 import '../styles/skills-styles.css';
-import astroIcon from '../../src/images/astro-icon.png';
-import htmlIcon from '../images/html-icon.png';
-import cssIcon from '../images/css-icon.png';
-import reactIcon from '../images/react-icon.png';
-import pythonIcon from '../images/python-icon.png';
-import javaScriptIcon from '../images/js-icon.png';
-import tailWindIcon from '../images/tailwind-icon.png';
 
 const Skills = () => {
-    const imagesCarousel = [astroIcon, htmlIcon, cssIcon, reactIcon, pythonIcon, javaScriptIcon, tailWindIcon];
 
     return(
         <section className='container-skills'>
@@ -26,9 +18,16 @@ const Skills = () => {
                     <button className='btn1'>Download CV</button>
                 </div>
                 <div className='carousel'>
-                    {imagesCarousel.map((image, index) => (
-                        <img src={image} alt={`Skill ${index + 1}`} key={index} height={96} width={96} />
-                    ))}
+                    <span className='imagen-icon astro-icon'></span>
+                    <span className='imagen-icon js-icon'></span>
+                    <span className='imagen-icon css-icon'></span>
+                    <span className='imagen-icon html-icon'></span>
+                    <span className='imagen-icon react-icon'></span>
+                    <span className='imagen-icon tailwind-icon'></span>
+                    <span className='imagen-icon python-icon'></span>
+                    <span className='imagen-icon php-icon'></span>
+                    <span className='imagen-icon laravel-icon'></span>
+                    <span className='imagen-icon fastapi-icon'></span>
                 </div>
             </div>
         </section>

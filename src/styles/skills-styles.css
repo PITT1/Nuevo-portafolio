@@ -16,7 +16,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -104,7 +104,65 @@
 .carousel {
     z-index: 400;
     width: 100%;
-    height: 400px;
-    background-color: #feab053e;
-    overflow: hidden;
+    height: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: 0.3s all;
+}
+
+.imagen-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+    transition: 0.3s all;
+}
+
+.imagen-icon:hover {
+    transform: scale(1.4);
+}
+
+.astro-icon {
+    background-image: url(../images/astro-icon.png);
+}
+
+.js-icon {
+    background-image: url(../images/js-icon.png);
+}
+
+.html-icon {
+    background-image: url(../images/html-icon.png);
+}
+
+.css-icon {
+    background-image: url(../images/css-icon.png);
+}
+
+.react-icon {
+    background-image: url(../images/react-icon.png);
+}
+
+.tailwind-icon {
+    background-image: url(../images/tailwind-icon.png);
+}
+
+.python-icon {
+    background-image: url(../images/python-icon.png);
+}
+
+.php-icon {
+    background-image: url(../images/php-icon.png);
+}
+
+.laravel-icon {
+    background-image: url(../images/laravel-icon.png);
+}
+
+.fastapi-icon {
+    background-image: url(../images/fastapi-icon.png);
 }
