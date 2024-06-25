@@ -21,7 +21,7 @@
 }
 
 .window {
-    height: 450px;
+    height: auto;
     width: 550px;
     margin-left: 20px;
     border-radius: 5px;
@@ -68,4 +68,34 @@
     margin-left: 20px;
     color: #D4D4D5;
     font-size: 1.2rem;
+}
+
+.window p {
+    color: rgb(228, 228, 228);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.light-letters {
+    color: rgb(0, 210, 210);
+    text-shadow: 0 0 30px aqua;
+}
+
+.btn1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: aqua;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px aqua;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn1:hover {
+    border: 2px solid rgb(3, 255, 3);
 }
