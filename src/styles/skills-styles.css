@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 30px;
 }
 
 .window {
@@ -27,7 +28,6 @@
     margin-left: 20px;
     border-radius: 5px;
     background-color: #100020;
-    min-width: 600px;
 }
 
 .head-window {
@@ -189,6 +189,19 @@
     }
 
     .window{
+        width: 90%;
+        height: auto;
         min-width: none;
+    }
+
+    .container-skills {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .window p {
+        font-size: 1.1rem;
     }
 }
