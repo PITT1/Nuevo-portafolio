@@ -1,4 +1,50 @@
 .tools-section {
     height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-section h1 {
+    font-size: 3.3rem;
+    color: aqua;
+}
+
+.tools-section div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tools-section div .icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+}
+
+.xampp-icon {
+    background-image: url(../images/xampp-icon.png);
+}
+
+.visual-studio-code-icon {
+    background-image: url(../images/visual-studio-code-icon.png);
+}
+
+.git-icon {
+    background-image: url(../images/git-icon.png);
+}
+
+.postman-icon {
+    background-image: url(../images/postman-icon.png);
+}
+
+.figma-icon {
+    background-image: url(../images/figma-icon.png);
 }
