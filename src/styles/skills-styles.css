@@ -103,7 +103,7 @@
 }
 
 .carousel {
-    z-index: 400;
+    z-index: 5;
     width: 100%;
     height: auto;
     max-width: 800px;
@@ -181,4 +181,14 @@
     background-size: cover;
     position: absolute;
     top: 100%;
+}
+
+@media (max-width: 1000px) {
+    .container2-skills {
+        flex-direction: column;
+    }
+
+    .window{
+        min-width: none;
+    }
 }

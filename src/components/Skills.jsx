@@ -121,7 +121,6 @@ const Skills = () => {
         </div>
       </div>
       <div className="wave">
-
       </div>
     </section>
   );
