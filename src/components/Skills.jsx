@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section className="container-skills">
       <motion.h1
-        initial={{ y: 400, opacity: 0 }}
+        initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
@@ -13,7 +13,7 @@ const Skills = () => {
       </motion.h1>
       <div className="container2-skills">
         <motion.div
-          initial={{ opacity: 0, y: 500 }}
+          initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="window"
