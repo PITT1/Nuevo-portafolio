@@ -23,6 +23,33 @@
     flex-wrap: wrap;
 }
 
+.tools-section div div {
+    position: relative;
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre {
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: auto;
+    right: auto;
+    opacity: 0;
+    transition: 0.3s all;
+    pointer-events: none;
+    font-size: 1.6rem;
+    text-wrap: nowrap;
+}
+
+.tools-section div div span:hover + .nombre {
+    top: -35px;
+    opacity: 1;
+}
+
 .tools-section div .icon {
     background-position: center;
     background-repeat: no-repeat;

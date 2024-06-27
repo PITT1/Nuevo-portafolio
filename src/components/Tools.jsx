@@ -11,11 +11,26 @@ const Tools = () => {
         Tools
       </motion.h1>
       <div>
-        <span className="icon xampp-icon"></span>
-        <span className="icon visual-studio-code-icon"></span>
-        <span className="icon git-icon"></span>
-        <span className="icon postman-icon"></span>
-        <span className="icon figma-icon"></span>
+        <div>
+          <motion.span initial={{opacity: 0}} whileHover={{scale: 1.2}} whileInView={{opacity: 1}} transition={{duration: 1}} className="icon xampp-icon"></motion.span>
+          <p className="nombre">XAMPP</p>
+        </div>
+        <div>
+          <motion.span initial={{opacity: 0}} whileHover={{scale: 1.2}} whileInView={{opacity: 1}} transition={{duration: 1}} className="icon visual-studio-code-icon"></motion.span>
+          <p className="nombre">VS Code</p>
+        </div>
+        <div>
+          <motion.span initial={{opacity: 0}} whileHover={{scale: 1.2}} whileInView={{opacity: 1}} transition={{duration: 1}} className="icon git-icon"></motion.span>
+          <p className="nombre">GIT</p>
+        </div>
+        <div>
+          <motion.span initial={{opacity: 0}} whileHover={{scale: 1.2}} whileInView={{opacity: 1}} transition={{duration: 1}} className="icon postman-icon"></motion.span>
+          <p className="nombre">Postman</p>
+        </div>
+        <div>
+          <motion.span initial={{opacity: 0}} whileHover={{scale: 1.2}} whileInView={{opacity: 1}} transition={{duration: 1}} className="icon figma-icon"></motion.span>
+          <p className="nombre">Figma</p>
+        </div>
       </div>
     </section>
   );
