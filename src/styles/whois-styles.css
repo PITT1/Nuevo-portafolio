@@ -19,4 +19,16 @@
 .whois-content {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whois-content .content-extern {
+    height: 600px;
+    width: 400px;
+    background-color: #0F031A;
+    border-radius: 15px;
+    border: 1px solid #3A3043;
+    box-shadow: 0 0 100px #191d4a;
 }
