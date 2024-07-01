@@ -58,6 +58,11 @@ div h1 {
     background-color: rgb(23, 23, 23);
 }
 
+.list ul li a {
+    text-decoration: none;
+    color: aqua;
+}
+
 .burguer {
     display: none;
 }

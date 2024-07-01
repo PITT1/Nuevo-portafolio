@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Tools = () => {
   return (
-    <section className="tools-section">
+    <section className="tools-section" id="TOOLS">
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}

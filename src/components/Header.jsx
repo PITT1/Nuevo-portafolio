@@ -21,10 +21,10 @@ const Header = () => {
 
         <div className={dinamiClass}>
             <ul>
-                <li>Start</li>
-                <li>Skills</li>
-                <li>Tools</li>
-                <li>About</li>
+                <li><a href="#">Start</a></li>
+                <li><a href="#SKILLS">Skills</a></li>
+                <li><a href="#TOOLS">Tools</a></li>
+                <li><a href="#WHOIS">About</a></li>
                 <li>Portfolio</li>
             </ul>
         </div>
