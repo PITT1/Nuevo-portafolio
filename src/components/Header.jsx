@@ -25,7 +25,7 @@ const Header = () => {
                 <li><a href="#SKILLS">Skills</a></li>
                 <li><a href="#TOOLS">Tools</a></li>
                 <li><a href="#WHOIS">About</a></li>
-                <li>Portfolio</li>
+                <li><a href="#PORTFOLIO">Portfolio</a></li>
             </ul>
         </div>
 
