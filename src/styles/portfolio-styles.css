@@ -13,4 +13,7 @@
 .portfolio-section .contenedor {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
