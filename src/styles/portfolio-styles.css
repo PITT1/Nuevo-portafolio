@@ -16,4 +16,43 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.proyecto-figure {
+    height: 250px;
+    width: 350px;
+    background-color: #000000;
+    border: 1px solid #302F2F;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyecto-figure h3{
+    color: rgb(0, 210, 210);
+    text-shadow: 0 0 30px aqua;
+}
+
+.proyecto-figure .project-image {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.proyecto-figure .wordgame {
+    background-image: url(../images/wordgame.png);
+}
+
+.proyecto-figure .wheaterapp {
+    background-image: url(../images/wheaterapp.png);
+}
+
+.proyecto-figure .todoapp {
+    background-image: url(../images/todoapp.png);
 }
