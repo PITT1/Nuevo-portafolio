@@ -1,6 +1,7 @@
 
 .portfolio-section {
     width: 100%;
+    margin-top: 40px;
 }
 
 .portfolio-section h1 {
@@ -13,6 +14,8 @@
 .portfolio-section .contenedor {
     width: 100%;
     height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -30,6 +33,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    transition: 0.3s all;
+}
+
+.proyecto-figure:hover {
+    box-shadow: 0 0 20px aqua;
 }
 
 .proyecto-figure h3{
@@ -38,6 +46,7 @@
 }
 
 .proyecto-figure .project-image {
+    border-radius: 20px 20px 0 0 ;
     height: 200px;
     width: 100%;
     background-position: center;
@@ -55,4 +64,27 @@
 
 .proyecto-figure .todoapp {
     background-image: url(../images/todoapp.png);
+}
+
+.portfolio-section .proyecto-figure .project-link {
+    font-style: normal;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.portfolio-section .proyecto-figure .github-link {
+    background-image: url(../images/github-icon2.png);
+    background-color: rgb(95, 95, 95);
+    border-radius: 20px 20px 0px 0px;
+    height: 60px;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s all;
+}
+
+.portfolio-section .proyecto-figure .github-link:hover {
+    background-color: aqua;
+    cursor: pointer;
 }
