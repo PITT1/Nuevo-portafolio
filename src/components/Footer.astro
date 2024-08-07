@@ -1,0 +1,50 @@
+---
+import Image from 'astro/components/Image.astro';
+import githubicon from '../images/github-icon2.png';
+import linkedinicon from '../images/linkedin-icon.png';
+import gmailicon from '../images/gmail-icon.png';
+---
+
+<footer>
+    <div>
+        <h1 class="pitt1footer">Pitt1<strong class='strong'>Dev</strong></h1>
+    </div>
+    <div class="footer-icon-container">
+        <div class="github-container">
+            <a href="https://github.com/PITT1">
+                <Image src={githubicon} alt='my github link' height={40} width={40}/>
+            </a>
+        </div>
+        <a href="https://www.linkedin.com/in/pedro-torrez-590987256/">
+            <Image src={linkedinicon} alt='my linkedin link' height={50} width={50}/>
+        </a>
+        <a href="mailto: petroleo.plta.97@gmail.com">
+            <Image src={gmailicon} alt='my gmail link' height={50} width={50}/>
+        </a>
+    </div>
+</footer>
+
+<style>
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+    }
+
+    .pitt1footer {
+        color: white;
+    }
+
+    .github-container {
+        background-color: white;
+        border-radius: 10px;
+        height: 40px;
+    }
+
+    .footer-icon-container {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin-right: 30px;
+    }
+</style>
