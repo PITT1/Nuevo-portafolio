@@ -1,10 +1,11 @@
 import '../styles/portfolio-styles.css';
 import PortfolioItem from './PortfolioItem';
+import { motion } from 'framer-motion';
 
 const Portfolio = () => {
     return(
         <section className="portfolio-section" id='PORTFOLIO'>
-            <h1>Portfolio</h1>
+            <motion.h1 initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.5}}>Portfolio</motion.h1>
             <div className='contenedor'>
                 <PortfolioItem title='Word Game' 
                                 imageclass='wordgame' 
