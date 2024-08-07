@@ -83,6 +83,10 @@
     background-image: url(../images/snakegame.png);
 }
 
+.proyecto-figure .landingpage {
+    background-image: url(../images/landingpage.png);
+}
+
 .portfolio-section .proyecto-figure .project-link {
     font-style: normal;
     text-decoration: none;

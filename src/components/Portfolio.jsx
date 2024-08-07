@@ -41,6 +41,11 @@ const Portfolio = () => {
                                 linkGithub='https://github.com/PITT1/Snake-Game-JS' 
                                 linkWeb='https://snakejspitt1.netlify.app/'
                 />
+                <PortfolioItem title='Landing Page' 
+                                imageclass='landingpage' 
+                                linkGithub='https://github.com/PITT1/Sunny-side-landingpage-Frontedmentor' 
+                                linkWeb='https://sunnysidepitt1.netlify.app/'
+                />
             </div>
         </section>
     )
