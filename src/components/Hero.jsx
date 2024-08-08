@@ -1,4 +1,5 @@
 import '../styles/hero-styles.css';
+import GithubIcon from '../images/GithubIcon';
 
 const Hero = () => {
     return(
@@ -8,7 +9,8 @@ const Hero = () => {
                 <p>≥ FullStack developer in <strong className='strong-color'>Venezuela</strong></p>
             </div>
             <div className='image-container'>
-                <div>
+                <div className='my-avatar'>
+                <a href="https://github.com/PITT1"><GithubIcon/></a>
                 </div>
             </div>
         </section>
