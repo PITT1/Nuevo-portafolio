@@ -120,8 +120,6 @@ const Skills = () => {
           </motion.div>
         </div>
       </div>
-      <div className="wave">
-      </div>
     </section>
   );
 };

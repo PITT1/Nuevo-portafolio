@@ -48,20 +48,17 @@
     position: relative;
 }
 
-.icon-hero {
+.image-container .my-avatar .icon-hero {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 90%;
-    background-color: aliceblue;
-    border-radius: 20px;
     transition: 0.2s all;
+    background-color: aliceblue;
+    border-radius: 100px;
 }
 
 .icon-hero:hover {
     transform: scale(1.2);
-    fill: red;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid red;
 }
 
 @media (max-width: 830px) {
@@ -81,5 +78,15 @@
 
     .presentation p {
         font-size: 1.5rem;
+    }
+
+    .icon-hero {
+        width: 90px;
+        height: 90px;
+    }
+
+    .image-container .my-avatar .icon-hero {
+        top: 80%;
+        left: 20%;
     }
 }
