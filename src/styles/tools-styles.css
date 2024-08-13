@@ -1,6 +1,6 @@
 .tools-section {
     height: 90vh;
-    background-color: black;
+    background: linear-gradient( rgb(38, 8, 121), rgb(38, 8, 121) , black);
     display: flex;
     flex-direction: column;
     justify-content: center;
