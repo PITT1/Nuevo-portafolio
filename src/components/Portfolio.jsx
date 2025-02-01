@@ -47,6 +47,11 @@ const Portfolio = () => {
                                 linkGithub='https://github.com/PITT1/Sunny-side-landingpage-Frontedmentor' 
                                 linkWeb='https://sunnysidepitt1.netlify.app/'
                 />
+                <PortfolioItem title='android game'
+                                imageclass='android-game'
+                                linkGithub='default'
+                                linkWeb='default'
+                />
             </div>
         </section>
     )

@@ -88,6 +88,10 @@
     background-image: url(../images/landingpage.png);
 }
 
+.proyecto-figure .android-game {
+    background-image: url(../images/android-game.png);
+}
+
 .portfolio-section .proyecto-figure .project-link {
     font-style: normal;
     text-decoration: none;
