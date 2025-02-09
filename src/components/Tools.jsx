@@ -31,6 +31,10 @@ const Tools = () => {
           <motion.span whileHover={{scale: 1.2}} className="icon figma-icon"></motion.span>
           <p className="nombre">Figma</p>
         </div>
+        <div>
+          <motion.span whileHover={{scale: 1.2}} className="icon godot-icon"></motion.span>
+          <p className="nombre">Godot engine</p>
+        </div>
       </motion.div>
     </section>
   );

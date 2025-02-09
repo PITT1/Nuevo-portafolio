@@ -9,7 +9,7 @@ const Whois = () => {
                 <motion.div initial={{x: -50, opacity:0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 2}} className='content-extern'>
                     <div className='image'></div>
                     <h2>Pitt1Dev</h2>
-                    <p>Full-Stack Developer</p>
+                    <p>Web Developer</p>
                 </motion.div>
 
                 <motion.div

@@ -49,7 +49,7 @@ const Portfolio = () => {
                 />
                 <PortfolioItem title='android game'
                                 imageclass='android-game'
-                                linkGithub='default'
+                                linkGithub='https://github.com/PITT1/Platform-game'
                                 linkWeb='default'
                 />
             </div>
